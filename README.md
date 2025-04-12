@@ -3,7 +3,7 @@
 Presentation: 
 
 
-We are aiming to build a <b>healthcare promotion website<b>, which would make the "medical documents stacking" and "physician consulation" robust and freely accessible for anyone, anywhere. 
+We are aiming to build a <b>healthcare promotion website</b>, which would make the "medical documents stacking" and "physician consulation" robust and freely accessible for anyone, anywhere. 
 
 The <a href="index.html">index.html</a> file is the website's homepage. Also, these are the <a href="style.css">CSS</a> and <a href="script.js">JavaScript</a> files for the home page.
 
