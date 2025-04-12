@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type:  none;
+    box-sizing: border-box;
+
+} 
+
+body{
+    height: 100%;
+    overflow-y: auto;
+    transition: all .5s;
+
+}
+/* Header styling */
+
+
+
+.side-bar {
+    z-index: 1;
+
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: whitesmoke;
+    top: 0px;
+    left: -100%;
+    transition: all .5s;
+    padding: 5px;
+    /* display: flex; */
+    /* text-align: center; */
+
+}
+.side-bar li{
+    font-size: 1.2rem;
+    height: 40px;
+    margin-top: 5px;
+    /* display:flex ; */
+    justify-items: center;
+    /* text-align: center; */
+    cursor: pointer;
+    padding: 10px;
+}
+#last-li{
+    position: absolute;
+    bottom: 0;
+}
+
+.r-arrow {
+    position: absolute;
+    right: 6px;
+}
+.header-container {
+    background-color: #ffce6c;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 0 16px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-logo{
+    cursor: pointer;
+    float: right;
+
+    border-radius: 50%;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+
+.company-logo img{
+    height: 50px; width: 110px; border-radius:5px 5px 30% 30% ; margin-top: 4px;
+}
+
+
+/* main */
+
+main{
+    margin-top: 57px;
+}
+
