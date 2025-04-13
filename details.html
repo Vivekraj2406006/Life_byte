@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disease Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 40px;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1 {
+      color: #007acc;
+    }
+    .back-link {
+      display: block;
+      margin-bottom: 20px;
+      color: #007acc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <a class="back-link" href="index.html">← Back to Disease List</a>
+  <h1 id="diseaseName"></h1>
+  <p><strong>Medicine:</strong> <span id="medicine"></span></p>
+  <p><strong>Description:</strong> <span id="description"></span></p>
+  <p><strong>Precautions:</strong> <span id="precautions"></span></p>
+
+  <script>
+    const data = {
+      "Diabetes Mellitus": {
+        medicine: "Metformin",
+        description: "A condition that affects blood sugar regulation.",
+        precautions: "Eat a balanced diet, exercise regularly, monitor blood sugar."
+      },
+      "Hypertension": {
+        medicine: "Amlodipine",
+        description: "High blood pressure, often with no symptoms but dangerous if untreated.",
+        precautions: "Reduce salt, exercise, avoid stress, take meds regularly."
+      },
+      "Asthma": {
+        medicine: "Salbutamol",
+        description: "A chronic condition causing inflammation and narrowing of the airways.",
+        precautions: "Avoid allergens, carry an inhaler, avoid smoking and pollution."
+      },
+      "Tuberculosis": {
+        medicine: "Isoniazid",
+        description: "A contagious bacterial infection that affects the lungs.",
+        precautions: "Complete medication course, wear a mask, ensure good ventilation."
+      },
+      "Hepatitis B": {
+        medicine: "Entecavir",
+        description: "A liver infection caused by the hepatitis B virus.",
+        precautions: "Avoid alcohol, maintain hygiene, get vaccinated."
+      },
+      "HIV/AIDS": {
+        medicine: "Antiretroviral Therapy (ART)",
+        description: "A virus that attacks the immune system and may lead to AIDS.",
+        precautions: "Practice safe sex, avoid sharing needles, adhere to medication."
+      },
+      "COVID-19": {
+        medicine: "Remdesivir",
+        description: "A respiratory illness caused by the SARS-CoV-2 virus.",
+        precautions: "Wear masks, practice hand hygiene, get vaccinated."
+      },
+      "Migraine": {
+        medicine: "Sumatriptan",
+        description: "Severe headache often accompanied by nausea or light sensitivity.",
+        precautions: "Avoid triggers like bright lights, stress, and certain foods."
+      },
+      "Arthritis": {
+        medicine: "Ibuprofen",
+        description: "Inflammation of the joints causing pain and stiffness.",
+        precautions: "Stay active, maintain healthy weight, avoid joint strain."
+      },
+      "Dengue": {
+        medicine: "Paracetamol",
+        description: "A mosquito-borne viral infection causing high fever and pain.",
+        precautions: "Prevent mosquito bites, eliminate standing water."
+      },
+      "Malaria": {
+        medicine: "Artemisinin-based therapy",
+        description: "A disease caused by parasites transmitted through mosquito bites.",
+        precautions: "Use mosquito nets, insect repellents, and antimalarial meds."
+      },
+      "Cancer": {
+        medicine: "Varies (e.g., chemotherapy)",
+        description: "A group of diseases involving abnormal cell growth.",
+        precautions: "Regular screenings, avoid carcinogens, healthy lifestyle."
+      },
+      "Alzheimer’s Disease": {
+        medicine: "Donepezil",
+        description: "A progressive brain disorder affecting memory and thinking.",
+        precautions: "Routine, mental activities, and caregiver support help manage it."
+      },
+      "Parkinson’s Disease": {
+        medicine: "Levodopa",
+        description: "A neurodegenerative disorder affecting movement.",
+        precautions: "Medication adherence, physical therapy, avoid falls."
+      },
+      "Heart Disease": {
+        medicine: "Atorvastatin",
+        description: "Disorders of the heart and blood vessels.",
+        precautions: "Healthy diet, no smoking, exercise, regular check-ups."
+      },
+      "Stroke": {
+        medicine: "Aspirin",
+        description: "A sudden interruption of blood supply to the brain.",
+        precautions: "Control blood pressure, no smoking, healthy lifestyle."
+      },
+      "Obesity": {
+        medicine: "Orlistat",
+        description: "A condition involving excessive body fat.",
+        precautions: "Balanced diet, physical activity, portion control."
+      },
+      "Anemia": {
+        medicine: "Ferrous Sulfate",
+        description: "A deficiency of red blood cells or hemoglobin.",
+        precautions: "Iron-rich foods, avoid tea/coffee after meals, take supplements."
+      },
+      "Epilepsy": {
+        medicine: "Valproate",
+        description: "A neurological disorder marked by seizures.",
+        precautions: "Take meds regularly, avoid flashing lights, manage stress."
+      },
+      "Chronic Kidney Disease": {
+        medicine: "Lisinopril",
+        description: "Gradual loss of kidney function over time.",
+        precautions: "Control blood pressure, reduce protein intake, monitor labs."
+      }
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const disease = decodeURIComponent(params.get("disease"));
+    const info = data[disease];
+
+    if (info) {
+      document.getElementById("diseaseName").textContent = disease;
+      document.getElementById("medicine").textContent = info.medicine;
+      document.getElementById("description").textContent = info.description;
+      document.getElementById("precautions").textContent = info.precautions;
+    } else {
+      document.body.innerHTML = "<p>Disease information not found.</p>";
+    }
+  </script>
+
+</body>
+</html>
