@@ -1,6 +1,7 @@
 # Life_byte
 
-Presentation: 
+Presentation: https://drive.google.com/file/d/1tQT1aUsuq9G9ju_RwiAV4xKcq53wHROA/view?usp=drivesdk
+Video: https://drive.google.com/file/d/1KMrCNpSvDvVulW4hKNfmLZg37PjYJKIb/view?usp=drivesdk
 
 
 We are aiming to build a <b>healthcare promotion website</b>, which would make the "medical documents stacking" and "physician consulation" robust and freely accessible for anyone, anywhere. 
@@ -24,6 +25,7 @@ We are aiming to include the following features:
 <h1>SetUp Instructions</h1>
 
 Requirements:
+
 1. Apache Environment (XAMMP)
 2. Composer
 3. MongoDB PHP driver
@@ -32,6 +34,15 @@ Requirements:
 Run the command in terminal in the root directory (Life_byte) : 
     composer install
 
+Also, to run the project we require <b>MongoDB installed locally on the system</b>, or require the <b>URI of a database on MongoDB</b>.
+Running locally, it would run on the localhost.
 
 
+
+<h2>Steps</h2>
+
+1. Start the apache server.
+2. Clone the repo in the sytem 
+3. Start terminal in the root directory (Life_byte) and run "composer install"
+4. Run the code on a browser, opening the link "localhost/.../Life_byte/index.html"
 
