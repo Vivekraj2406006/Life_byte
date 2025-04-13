@@ -26,7 +26,9 @@ try {
 <html>
 <head>
     <title>Dashboard</title>
-    <link rel="stylesheet" href="vaultstyle.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="vaultstyle.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
