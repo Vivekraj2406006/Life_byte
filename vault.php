@@ -91,6 +91,7 @@ try {
                 <a>Facebook</a>
                 <a>Instagram</a>
                 <a>Twitter</a>
+                <a href="logout.html">Log Out</a>
             </div>
 
             <div class="foot-panal2-c2">
