@@ -1,8 +1,7 @@
 # Life_byte
 
-Presentation: https://drive.google.com/file/d/1tQT1aUsuq9G9ju_RwiAV4xKcq53wHROA/view?usp=drivesdk
-Video: https://drive.google.com/file/d/1KMrCNpSvDvVulW4hKNfmLZg37PjYJKIb/view?usp=drivesdk
-
+Presentation: https://drive.google.com/file/d/1tQT1aUsuq9G9ju_RwiAV4xKcq53wHROA/view?usp=drivesdk <br/>
+Video: https://drive.google.com/file/d/1MDfGH8rEZjTEB2Hhs-oIO2x6zAqphQwI/view?usp=drivesdk 
 
 We are aiming to build a <b>healthcare promotion website</b>, which would make the "medical documents stacking" and "physician consulation" robust and freely accessible for anyone, anywhere. 
 
