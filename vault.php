@@ -28,6 +28,7 @@ try {
     <title>Dashboard</title>
     <link rel="stylesheet" href="vaultstyle.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 </head>
 <body>
@@ -91,7 +92,7 @@ try {
                 <a>Facebook</a>
                 <a>Instagram</a>
                 <a>Twitter</a>
-                <a href="logout.html">Log Out</a>
+                <a href="logout.php">Log Out</a>
             </div>
 
             <div class="foot-panal2-c2">
