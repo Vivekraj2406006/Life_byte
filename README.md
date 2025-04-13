@@ -21,6 +21,17 @@ We are aiming to include the following features:
 7. Diseases and their prevention documentation
 
 
+<h1>SetUp Instructions</h1>
+
+Requirements:
+1. Apache Environment (XAMMP)
+2. Composer
+3. MongoDB PHP driver
+
+
+Run the command in terminal in the root directory (Life_byte) : 
+    composer install
+
 
 
 
