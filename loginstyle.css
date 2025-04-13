@@ -11,6 +11,19 @@ body{
     min-height: 100vh;
     background: linear-gradient(90deg, #e2e2e2, #c9d6ff);
 }
+
+
+.shpass{
+    text-align: right;
+    /* margin-top: 10px; */
+    cursor: pointer;
+    border-radius: 10px;
+    /* background-color: rgb(149, 227, 235); */
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+}
+
 .back-arrow{
     z-index: 10;
     height: 35px;
